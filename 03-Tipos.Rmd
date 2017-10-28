@@ -10,7 +10,7 @@ En primer lugar, se presenta una tabla de resumenes.
 summary(cars)
 ```
 
-## Including Plots
+## Incluyendo gráficos
 
 En segundo lugar, se presenta una tabla de gráficos.
 
