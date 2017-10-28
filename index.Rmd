@@ -9,7 +9,7 @@ cover-image: imagenes/Portada.jpg
 ---
 
 
-# Prefaccio {-}
+# Prefacio {-}
 
 ```{r fig.align='center', echo=FALSE,fig.height=2, fig.width=2,include=identical(knitr:::pandoc_to(), 'html')}
 knitr::include_graphics('imagenes/Portada.jpg')
