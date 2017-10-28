@@ -1,0 +1,13 @@
+book_filename: libro
+output_dir: "docs"
+language:
+  label:
+    fig: "Figura "
+    tab: "Tabla "
+  ui:
+    edit: "Edit"
+    chapter_name: "Capítulo "
+    
+    
+    
+    

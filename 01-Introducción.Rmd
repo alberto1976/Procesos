@@ -1,0 +1,11 @@
+\mainmatter
+
+# Introducción {#Intro}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Este es un ejemplo de libro 

@@ -1,0 +1,10 @@
+# Definiciones
+
+## Tipos de mensajes
+
+A continuación se presenta una seria de bloques ... [Dirección Nacional de Planeación y Estadística]("http://www.onp.unal.edu.co/"). Para mayores detallles ver (Capítulo \@ref(Intro)).
+
+```{engine = block2, note-text, type='rmdcaution'}
+Este es un ejemplo de un primer bloque que se encuentra en la [Dirección Nacional de Planeación y Estadística]("http://www.onp.unal.edu.co/")
+```
+
