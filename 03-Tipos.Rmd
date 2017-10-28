@@ -1,0 +1,21 @@
+# Tipos de indicadores y gráficos
+
+A continuación se ´resentan dos tipos de opciones que se pueden construir en un libro ejemplo de bookdown.
+
+En primer lugar, se presenta una tabla de resumenes.
+
+## Resumenes
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+En segundo lugar, se presenta una tabla de gráficos.
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+  
