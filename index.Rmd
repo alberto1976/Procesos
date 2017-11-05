@@ -1,18 +1,18 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "Lineamiento Procesos"
+author: "Dirección Nacional de Planeación y Estadística"
 site: bookdown::bookdown_site
 documentclass: book
 output:
   bookdown::gitbook: default
-cover-image: imagenes/Portada.jpg  
+cover-image: images/Portada.jpg  
 ---
 
 
 # Prefacio {-}
 
 ```{r fig.align='center', echo=FALSE,fig.height=2, fig.width=2,include=identical(knitr:::pandoc_to(), 'html')}
-knitr::include_graphics('imagenes/Portada.jpg')
+knitr::include_graphics('images/Portada.jpg')
 ```
 
 
