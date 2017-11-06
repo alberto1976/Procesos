@@ -4,6 +4,7 @@ language:
   label:
     fig: "Figura "
     tab: "Tabla "
+    eq: "Ecuación "
   ui:
     edit: "Edit"
     chapter_name: "Capítulo "

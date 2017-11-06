@@ -1,4 +1,4 @@
-# Definiciones
+# Definiciones {#Definiciones}
 
 ## Tipos de mensajes
 
