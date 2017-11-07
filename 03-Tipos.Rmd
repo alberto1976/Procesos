@@ -18,6 +18,10 @@ En segundo lugar, se presenta una tabla de gráficos.
 plot(pressure)
 ```
 
+## Notas al pie
+
+Colombia ^[Este país está conformado por 45 millones de habitantes aproximadamente] está ubicado en suramerica. 
+
 ## Ecuaciones
 
 A continuación se presenta una ecuación
