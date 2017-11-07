@@ -65,7 +65,7 @@ div(align="center", embed_youtube(id="3YhQAiHTS2c"))
 <html>
 <body>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16294381.45141052!2d-80.85078885760268!3d4.38854179801846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6fc1c30ea9f9c7%3A0x2f43f612af7c54eb!2sUniversidad+Nacional+de+Colombia+Sede+Orinoqu%C3%ADa!5e0!3m2!1ses!2sco!4v1510013248424" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13497317.042413037!2d-81.20389240529985!3d4.817015543102023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6fc1c30ea9f9c7%3A0x2f43f612af7c54eb!2sUniversidad+Nacional+de+Colombia+Sede+Orinoqu%C3%ADa!5e0!3m2!1ses!2sco!4v1510013546828" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </body>
 </html>
