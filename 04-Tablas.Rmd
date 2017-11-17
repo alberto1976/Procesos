@@ -1,10 +1,37 @@
 # Tablas
 
-A continuación se presentan varios ejemplos de tipos de tablas que pueden ser construidas en un libro electrónico
+A continuación se presentan varios ejemplos de tipos de tablas que pueden ser construidas en un libro electrónico desde R. En el sitio web https://hughjonesd.github.io/huxtable/design-principles.html se puede consultar los diferentes paquetes existentes en R para la gestión de tablas:
+
 
 ## Tablas Web con DT
+
+Este componente presenta los diferentes tipos de tablas que pueden ser trabajadas con la librería DT
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(DT)
 datatable(iris)
 ```
+
+## Tablas con huxtable
+
+Este componente presenta los diferentes tipos de tablas que pueden ser trabajadas con la librería huxtable
+
+### Tabla Básica
+ 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(huxtable)
+hux(head(iris), add_colnames = TRUE)
+```
+
+### Tabla negrilla
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(huxtable)
+
+h<-hux(head(iris), add_colnames = TRUE)
+bold(h)[1,]          <- TRUE
+bottom_border(h)[1,] <- 1
+h
+```
+
+ 
