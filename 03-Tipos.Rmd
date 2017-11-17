@@ -81,6 +81,16 @@ div(align="center", embed_youtube(id="3YhQAiHTS2c"))
 </body>
 </html>
 
+## Incuyendo tablas
+
+A continuación se presentan varios ejemplos de tipos de tablas que pueden ser construidas en un libro electrónico
+
+### Tablas Web con DT
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(DT)
+datatable(iris)
+```
 
 
 
