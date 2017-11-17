@@ -1,6 +1,9 @@
 # Tablas
 
-A continuación se presentan varios ejemplos de tipos de tablas que pueden ser construidas en un libro electrónico desde R. En el sitio web https://hughjonesd.github.io/huxtable/design-principles.html se puede consultar los diferentes paquetes existentes en R para la gestión de tablas:
+A continuación se presentan varios ejemplos de tipos de tablas que pueden ser construidas en un libro electrónico desde R. En los siguientes sitios web puede consultar información más detallada sobre los paquetes existentes en R para la gestión de tablas
+
+* https://hughjonesd.github.io/huxtable/design-principles.html
+* https://hughjonesd.github.io/huxtable/huxtable.html
 
 
 ## Tablas Web con DT
