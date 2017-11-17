@@ -23,7 +23,7 @@ library(huxtable)
 hux(head(iris), add_colnames = TRUE)
 ```
 
-### Tabla negrilla
+### Tabla negrilla en el encabezado
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(huxtable)
