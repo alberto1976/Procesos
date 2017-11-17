@@ -28,9 +28,9 @@ hux(head(iris), add_colnames = TRUE)
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(huxtable)
 
-h<-hux(head(iris), add_colnames = TRUE)
-bold(h)[1,]          <- TRUE
-bottom_border(h)[1,] <- 1
+hh<-hux(head(iris), add_colnames = TRUE)
+bold(hh)[1,]          <- TRUE
+bottom_border(hh)[1,] <- 1
 h
 ```
 
