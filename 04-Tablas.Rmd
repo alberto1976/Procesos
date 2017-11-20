@@ -12,10 +12,13 @@ Este componente presenta los diferentes tipos de tablas que pueden ser trabajada
 
 ### Tablas con DT básicas
 
+A continuación se prsenta el código en R
+
 ```yaml
 library(DT)
 datatable(iris)
 ```
+Y esta es la salida en R
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(DT)
