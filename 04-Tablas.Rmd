@@ -12,6 +12,11 @@ Este componente presenta los diferentes tipos de tablas que pueden ser trabajada
 
 ### Tablas con DT básicas
 
+```yaml
+library(DT)
+datatable(iris)
+```
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(DT)
 datatable(iris)
