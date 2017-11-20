@@ -31,6 +31,11 @@ Este componente presenta los diferentes tipos de tablas que pueden ser trabajada
 
 ### Tabla Básica
  
+```yaml
+library(huxtable)
+hux(head(iris), add_colnames = TRUE)
+```
+ 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(huxtable)
 hux(head(iris), add_colnames = TRUE)
