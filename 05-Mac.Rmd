@@ -1,6 +1,6 @@
 # Mac en Libros
 
-# Introducción
+## Introducción
 
 En este capitulo se presenta una introducción a mac como prueba
 
