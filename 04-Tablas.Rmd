@@ -52,4 +52,10 @@ bottom_border(hh)[1,] <- 1
 hh
 ```
 
- 
+# Emoticones en Rmarkdown   😄
+
+```yaml
+r emo::ji("poop")
+```
+
+
