@@ -29,13 +29,18 @@ MathJax.Hub.Config({
 
 <title>Lineamiento Procesos</title>
 
-<script src="libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="libs/navigation-1.1/tabsets.js"></script>
+<script src="libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<script src="libs/datatables-binding-0.2/datatables.js"></script>
+<link href="libs/dt-core-1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.12/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.12/js/jquery.dataTables.min.js"></script>
 
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -83,8 +88,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </style>
 
 
-<link rel="stylesheet" href="css\style.css" type="text/css" />
-<link rel="stylesheet" href="css\toc.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/toc.css" type="text/css" />
 
 <style type = "text/css">
 .main-container {
@@ -113,6 +118,7 @@ img {
 <div id="TOC">
 <ul>
 <li><a href="index.html#prefacio">Prefacio</a></li>
+<li><a href="hello-world.html#hello-world">Hello World</a></li>
 <li class="has-sub"><a href="1-Intro.html#Intro"><span class="toc-section-number">1</span> Introducción</a><ul>
 <li><a href="1-1-r-markdown.html#r-markdown"><span class="toc-section-number">1.1</span> R Markdown</a></li>
 </ul></li>
@@ -122,12 +128,24 @@ img {
 <li class="has-sub"><a href="3-tipos-de-indicadores-y-graficos.html#tipos-de-indicadores-y-graficos"><span class="toc-section-number">3</span> Tipos de indicadores y gráficos</a><ul>
 <li><a href="3-1-resumenes.html#resumenes"><span class="toc-section-number">3.1</span> Resumenes</a></li>
 <li><a href="3-2-incluyendo-graficos.html#incluyendo-graficos"><span class="toc-section-number">3.2</span> Incluyendo gráficos</a></li>
-<li><a href="3-3-ecuaciones.html#ecuaciones"><span class="toc-section-number">3.3</span> Ecuaciones</a></li>
-<li><a href="3-4-referencias-cruzadas.html#referencias-cruzadas"><span class="toc-section-number">3.4</span> Referencias Cruzadas</a></li>
-<li><a href="3-5-referencias-a-ecuaciones.html#referencias-a-ecuaciones"><span class="toc-section-number">3.5</span> Referencias a ecuaciones</a></li>
-<li><a href="3-6-videos.html#videos"><span class="toc-section-number">3.6</span> videos</a></li>
-<li><a href="3-7-mapas-de-google.html#mapas-de-google"><span class="toc-section-number">3.7</span> Mapas de google</a></li>
-<li><a href="3-8-notas-al-pie.html#notas-al-pie"><span class="toc-section-number">3.8</span> Notas al pie</a></li>
+<li><a href="3-3-notas-al-pie.html#notas-al-pie"><span class="toc-section-number">3.3</span> Notas al pie</a></li>
+<li><a href="3-4-ecuaciones.html#ecuaciones"><span class="toc-section-number">3.4</span> Ecuaciones</a></li>
+<li><a href="3-5-referencias-cruzadas.html#referencias-cruzadas"><span class="toc-section-number">3.5</span> Referencias Cruzadas</a></li>
+<li><a href="3-6-referencias-a-ecuaciones.html#referencias-a-ecuaciones"><span class="toc-section-number">3.6</span> Referencias a ecuaciones</a></li>
+<li><a href="3-7-videos.html#videos"><span class="toc-section-number">3.7</span> videos</a></li>
+<li><a href="3-8-mapas-de-google.html#mapas-de-google"><span class="toc-section-number">3.8</span> Mapas de google</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-tablas.html#tablas"><span class="toc-section-number">4</span> Tablas</a><ul>
+<li class="has-sub"><a href="4-1-tablas-web-con-dt.html#tablas-web-con-dt"><span class="toc-section-number">4.1</span> Tablas Web con DT</a><ul>
+<li><a href="4-1-tablas-web-con-dt.html#tablas-con-dt-basicas"><span class="toc-section-number">4.1.1</span> Tablas con DT básicas</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-2-tablas-con-huxtable.html#tablas-con-huxtable"><span class="toc-section-number">4.2</span> Tablas con huxtable</a><ul>
+<li><a href="4-2-tablas-con-huxtable.html#tabla-basica"><span class="toc-section-number">4.2.1</span> Tabla Básica</a></li>
+<li><a href="4-2-tablas-con-huxtable.html#tabla-con-negrilla-en-el-encabezado"><span class="toc-section-number">4.2.2</span> Tabla con negrilla en el encabezado</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="5-mac-en-libros.html#mac-en-libros"><span class="toc-section-number">5</span> Mac en Libros</a><ul>
+<li><a href="5-1-introduccion.html#introduccion"><span class="toc-section-number">5.1</span> Introducción</a></li>
 </ul></li>
 </ul>
 </div>
@@ -135,20 +153,24 @@ img {
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="videos" class="section level2">
-<h2><span class="header-section-number">3.6</span> videos</h2>
-<p>A continuación se presenta el código de insersión de videos en R</p>
-<div class="sourceCode"><pre class="sourceCode yaml"><code class="sourceCode yaml">library(vembedr)
-library(htmltools)
-div(align=<span class="st">&quot;center&quot;</span>, embed_youtube(id=<span class="st">&quot;3YhQAiHTS2c&quot;</span>))</code></pre></div>
-<p>Este ejemplo produce el siguiente video:</p>
-<div align="center">
-<iframe src="https://www.youtube.com/embed/3YhQAiHTS2c" width="420" height="315" frameborder="0" allowfullscreen=""></iframe>
+<div id="introduccion" class="section level2">
+<h2><span class="header-section-number">5.1</span> Introducción</h2>
+<p>En este capitulo se presenta una introducción a mac como prueba</p>
+<ul>
+<li>Primer Paso</li>
+<li>Segundo paso</li>
+</ul>
+
 </div>
 </div>
+
+
+
+
+
+
 <p style="text-align: center;">
-<a href="3-5-referencias-a-ecuaciones.html"><button class="btn btn-default">Previous</button></a>
-<a href="3-7-mapas-de-google.html"><button class="btn btn-default">Next</button></a>
+<a href="5-mac-en-libros.html"><button class="btn btn-default">Previous</button></a>
 </p>
 </div>
 </div>
