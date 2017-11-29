@@ -2,9 +2,11 @@
 
 ## Introducción
 
-En este capitulo se presenta una introducción a mac como prueba
+En este capítulo se presenta una introducción a mac como prueba
 
   * Primer Paso
   * Segundo paso
   * Tercer paso
   * Cuarto paso
+    + Item 1
+    + Item 2
