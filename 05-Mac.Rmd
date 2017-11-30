@@ -14,3 +14,7 @@ En este capítulo se presenta una introducción a mac como prueba
     + Item 4
     + Item 5
   * Quinto paso  
+  * Sexto paso
+  * Septimo paso
+  * Octavo paso
+  *

@@ -6,7 +6,7 @@ A continuación se presentan varios ejemplos de tipos de tablas que pueden ser c
 * https://hughjonesd.github.io/huxtable/huxtable.html
 
 
-## Tablas Web con DT
+## Tablas Web con Dt
 
 Este componente presenta los diferentes tipos de tablas que pueden ser trabajadas con la librería DT. Bienvenidos a este apartado.
 

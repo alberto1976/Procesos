@@ -1,6 +1,6 @@
 # Definiciones {#Definiciones}
 
-## Tipos de mensajes
+## Tipos de mensajes en Bookdown
 
 A continuación se presenta una seria de bloques ... [Dirección Nacional de Planeación y Estadística]("http://www.onp.unal.edu.co/"). Para mayores detallles ver (Capítulo \@ref(Intro)).
 
